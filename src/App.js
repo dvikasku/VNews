@@ -4,7 +4,7 @@ import NavBar from './components/NavBar';
 import News from './components/News';
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import LoadingBar from 'react-top-loading-bar'
-
+// router
 const App = () => {
   const apiKey = process.env.REACT_APP_NEWS_API
 
